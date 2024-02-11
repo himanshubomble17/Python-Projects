@@ -192,12 +192,21 @@
 #     print(num)
 
 
-# 15. check the given number is greater than 5, print it if it is greater. if greater convert it into negative, else print as it is.
+# 15. check the given number is greater than 5, print it if it is greater. if greater, convert it into negative, else print as it is.
+# num = int(input("Enter number: "))
+# if num > 5:
+#     print("Number is greater than 5")
+#     print(num)
+#     print(-num)
+# else:
+#     print(num)
+
+
+# 16. check the given number is smaller than 10, if it is smaller find the exponent else print as it is.
 num = int(input("Enter number: "))
-if num > 5:
-    print("Number is greater than 5")
-    print(num)
-    print(-num)
+if num < 10:
+    num **=2
+    print("Exponent of given number is", num)
 else:
     print(num)
 
