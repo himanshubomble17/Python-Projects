@@ -185,13 +185,21 @@
 
 
 # 14. check the given number is greater than 5, if greater convert it into negative, else print as it is.
+# num = int(input("Enter number: "))
+# if num > 5:
+#     print(-num)
+# else:
+#     print(num)
+
+
+# 15. check the given number is greater than 5, print it if it is greater. if greater convert it into negative, else print as it is.
 num = int(input("Enter number: "))
 if num > 5:
+    print("Number is greater than 5")
+    print(num)
     print(-num)
 else:
     print(num)
-
-
 
 
 
