@@ -229,7 +229,16 @@
 #     print(character)
     
 
-# 19. 
+# 19. check whether given triangle is right angle triangle or not. if yes find the sum of all angles.
+# print("enter the number")
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a == 90 or b == 90 or c == 90 and a+b+c == 180:
+#     print("It is a right angle triangle")
+#     print(a+b+c)
+# else:
+#     print("It is not a right angle triangle")
 
 
 
