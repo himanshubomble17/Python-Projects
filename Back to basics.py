@@ -254,18 +254,28 @@
 
 
 # 21. wap to find greatest of 4 numbers
-a = int(input("Enter a number: "))
-b = int(input("Enter a number: "))
-c = int(input("Enter a number: "))
-d = int(input("Enter a number: "))
-if a > b and a > c and a > d:
-    print(a,"is greatest")
-elif b > a and b > c and b > d:
-    print(b, "is greatest")
-elif c > a and c > b and c > d:
-    print(c, "is greatest")
+# a = int(input("Enter a number: "))
+# b = int(input("Enter a number: "))
+# c = int(input("Enter a number: "))
+# d = int(input("Enter a number: "))
+# if a > b and a > c and a > d:
+#     print(a,"is greatest")
+# elif b > a and b > c and b > d:
+#     print(b, "is greatest")
+# elif c > a and c > b and c > d:
+#     print(c, "is greatest")
+# else:
+#     print(d, "is greatest") 
+
+
+# 22. wap to check whether the given number is even, odd, or zero.
+num = int(input("Enter a number: "))
+if num == 0:
+    print("Number is zero")
+elif num % 2 == 0:
+    print("Number is even")
 else:
-    print(d, "is greatest") 
+    print("Number is odd")
 
 
 
