@@ -241,8 +241,31 @@
 #     print("It is not a right angle triangle")
 
 
+# 20. wap to find greatest of 3 numbers
+# n1 = int(input("Enter no. 1: "))
+# n2 = int(input("Enter no. 2: "))
+# n3 = int(input("Enter no. 3: "))
+# if n1 > n2 and n1> n3:
+#     print(n1, "is greatest")
+# elif n2 > n1 and n2 > n3:
+#     print(n2, "is greatest")
+# else:
+#     print(n3, "is greatest")
 
 
+# 21. wap to find greatest of 4 numbers
+a = int(input("Enter a number: "))
+b = int(input("Enter a number: "))
+c = int(input("Enter a number: "))
+d = int(input("Enter a number: "))
+if a > b and a > c and a > d:
+    print(a,"is greatest")
+elif b > a and b > c and b > d:
+    print(b, "is greatest")
+elif c > a and c > b and c > d:
+    print(c, "is greatest")
+else:
+    print(d, "is greatest") 
 
 
 
