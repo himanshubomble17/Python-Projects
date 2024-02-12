@@ -269,14 +269,27 @@
 
 
 # 22. wap to check whether the given number is even, odd, or zero.
-num = int(input("Enter a number: "))
-if num == 0:
-    print("Number is zero")
-elif num % 2 == 0:
-    print("Number is even")
-else:
-    print("Number is odd")
+# num = int(input("Enter a number: "))
+# if num == 0:
+#     print("Number is zero")
+# elif num % 2 == 0:
+#     print("Number is even")
+# else:
+#     print("Number is odd")
 
 
+# 23. write a programme to find the smallest of 3 numbers
+# n1 = int(input("Enter no. 1: "))
+# n2 = int(input("Enter no. 2: "))
+# n3 = int(input("Enter no. 3: "))
+# if n1 < n2 and n1 < n3:
+#     print(n1, "is smallest")
+# elif n2 < n1 and n2 < n3:
+#     print(n2, "is smallest")
+# else:
+#     print(n3,"is smallest")
+
+
+24. 
 
 
