@@ -203,12 +203,33 @@
 
 
 # 16. check the given number is smaller than 10, if it is smaller find the exponent else print as it is.
-num = int(input("Enter number: "))
-if num < 10:
-    num **=2
-    print("Exponent of given number is", num)
-else:
-    print(num)
+# num = int(input("Enter number: "))
+# if num < 10:
+#     num **=2
+#     print("Exponent of given number is", num)
+# else:
+#     print(num)
+
+
+# 17. check whether the given number is even. if true reduce it to half else print it as it is
+# num = int(input("Enter number: "))
+# if num % 2==0:
+#     print(num//2)
+# else:
+#     print(num)
+
+
+# 18. check whether the given character is vowel or not, if yes capitalize it, else keep it as it is.
+# character = input("Enter an character: ")
+# vowel = "AEIOUaeiou"
+# if character.startswith(tuple(vowel)):
+#     print("Starts with a vowel")
+#     print(character.upper())
+# else:
+#     print(character)
+    
+
+# 19. 
 
 
 
