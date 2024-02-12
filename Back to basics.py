@@ -325,17 +325,17 @@
 
 
 # 27. write a programme to check the largest digit in given number(number must be of 3 digits)
-print("enter the number")
-num = input() 
-if num.isdigit() and len(num) == 3:
-    print("proceed to compare")
-if num[0] > num[1] and num[0] > num[2]:
-    print("first digit is greater")
-elif num[1] > num[0] and num[1] > num[2]:
-    print("second digit is greater")
-elif num[2] > num[0] and num[2] > num[1]:
-    print("third digit is greater")
-else:
-    print("invalid input")
+# print("enter the number")
+# num = input() 
+# if num.isdigit() and len(num) == 3:
+#     print("proceed to compare")
+# if num[0] > num[1] and num[0] > num[2]:
+#     print("first digit is greater")
+# elif num[1] > num[0] and num[1] > num[2]:
+#     print("second digit is greater")
+# elif num[2] > num[0] and num[2] > num[1]:
+#     print("third digit is greater")
+# else:
+#     print("invalid input")
 
 
