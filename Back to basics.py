@@ -290,6 +290,52 @@
 #     print(n3,"is smallest")
 
 
-24. 
+# 24. write a programme to check if the given character is alphabet or digit or special character.
+# character = input("Enter a character: ")
+# if (character >= 'a' and character <= 'z') or (character >= 'A' and character <= 'Z'):
+#     print("The character is an alphabet.")
+# elif character >= '0' and character <= '9':
+#     print("The character is a digit.")
+# else:
+#     print("The character is a special character.")
+
+
+# 25. write a programme to check if the given character is alphabet or digit or special character with methods
+# character = input("Enter a character: ")
+# if character.isalpha():
+#     print("It's an Alphabate")
+# elif character.isdigit():
+#     print("It's a digit")
+# else:
+#     print("It's a special character")
+
+
+# 26. create simple facebook login page.
+# email = input("Enter your email or phone number: ")
+# ph_no = int(input("Enter phone number: "))
+# passwd = input("Enter password: ")
+# real_email = "abc@gmail.com"
+# real_ph_no = 123456789
+# real_passwd = "abc1234"
+# if email == real_email and ph_no == real_ph_no and passwd == real_passwd:
+#     print("Login successful!")
+#     print("Welcome to Facebook, abc")
+# else:
+#     print("Invalid credentials!")
+
+
+# 27. write a programme to check the largest digit in given number(number must be of 3 digits)
+print("enter the number")
+num = input() 
+if num.isdigit() and len(num) == 3:
+    print("proceed to compare")
+if num[0] > num[1] and num[0] > num[2]:
+    print("first digit is greater")
+elif num[1] > num[0] and num[1] > num[2]:
+    print("second digit is greater")
+elif num[2] > num[0] and num[2] > num[1]:
+    print("third digit is greater")
+else:
+    print("invalid input")
 
 
